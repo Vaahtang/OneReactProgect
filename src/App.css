@@ -1,0 +1,20 @@
+.CreateApp{
+
+  display: grid;
+
+  grid-template-areas:
+"f f f "
+"n p p";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+
+}
+
+
+.CreateApp-content{
+  grid-area:p;
+  background-color: blueviolet;
+}
+
+
