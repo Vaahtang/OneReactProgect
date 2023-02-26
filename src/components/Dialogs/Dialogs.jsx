@@ -1,8 +1,16 @@
 import s from './Dialogs.module.css'
 import Messages from "./Messages/Messages";
 import DialogItem from "./DialogItem/DialogItem";
+import React from "react";
 
 
+let textareaElement = React.createRef()
+
+
+let MessageButtonClick =()=>{
+    let textMessageProfile =  textareaElement.current.value
+    alert(textMessageProfile)
+}
 
 const Dialogs=(p)=>{
 
@@ -16,8 +24,16 @@ const Dialogs=(p)=>{
             </div>
             <div className={s.messages}>
                 {messageDataMap}
+                <div>
+                    <textarea ref={textareaElement}>
 
+                    </textarea>
+                </div>
+                <button onClick={MessageButtonClick}>
+                    ldsfslkdfjlks
+                </button>
             </div>
+
         </div>
     )
 }
