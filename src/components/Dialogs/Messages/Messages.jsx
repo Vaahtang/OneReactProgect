@@ -1,7 +1,7 @@
 import s from "../Dialogs.module.css";
 
 
-const Message =(props)=>{
+const Messages =(props)=>{
     return(
         <div className={s.message}>
             {props.message}
@@ -15,4 +15,4 @@ const Message =(props)=>{
 
 
 
-export default Message;
+export default Messages;

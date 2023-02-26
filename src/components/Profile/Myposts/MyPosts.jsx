@@ -20,7 +20,7 @@ debugger
         </div>
             <div>
                 <button onClick={newPost}>
-dfdf
+
                 </button>
             </div>
             <div>

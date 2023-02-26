@@ -1,5 +1,5 @@
 
-import s from './ProfileInfo.madule.css';
+import s from './ProfileInfo.module.css';
 
 
 

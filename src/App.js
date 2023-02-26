@@ -15,12 +15,11 @@ const App = (p) => {
                 <Header/>
                 <Navbar/>
               <div className='CreateApp-content'>
-<Routes>
-    <Route path="/profile" element={<Profile state={p.State.profilePage} />}/>}/>
-    <Route path="/dialogs" element={<Dialogs state={p.State.dialogsPage} />} />}/>
-</Routes>
+             <Routes>
+             <Route path="/profile" element={<Profile state={p.State.profilePage}/>}/>}/>
+              <Route path="/dialogs" element={<Dialogs state={p.State.dialogsPage}/>}/>}/>
+              </Routes>
                 </div>
-
             </div>
 
 </BrowserRouter>
